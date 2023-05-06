@@ -338,8 +338,8 @@ public class A01_FindMissingNumber {
 2. ### Find the multile duplicate numbers in the array?
     Write a program in Java for, In a array 1-100 multiple numbers are duplicates, how do you find it.
     
-    ```
-    package arrays;
+    
+   ``` package arrays;
 
 public class A02_MultipleNumbersDuplicate {
 
@@ -365,13 +365,15 @@ public class A02_MultipleNumbersDuplicate {
 		}
 	}
 }
-
-   ```
+```
+  
     Output
     
     ```
-    2 5 7 1 4
+        2 5 7 1 4
     ```
+    
+    
 
   **[⬆ Back to Top](#table-of-contents)**
 

@@ -342,7 +342,7 @@ public class A01_FindMissingNumber {
     ```
      package arrays;
 
-    public class A02_MultipleNumbersDuplicate {
+         public class A02_MultipleNumbersDuplicate {
 
 	//2.	Write a program in Java for, In a array 1-100 multiple numbers are duplicates, how do you find it.
 	public static void main(String[] args) {
@@ -367,12 +367,9 @@ public class A01_FindMissingNumber {
 	   }
         }
 
-      ```
-      Output :
-    
-      ```
-        2 5 7 1 4
-      ```  
+     ```
+      ***Output : ***2 5 7 1 4
+       
 
  **[⬆ Back to Top](#table-of-contents)**
 

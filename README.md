@@ -372,11 +372,9 @@ public class A02_MultipleNumbersDuplicate {
     
  ```
         2 5 7 1 4
- ```
-    
-    
+ ```  
 
-  **[⬆ Back to Top](#table-of-contents)**
+ **[⬆ Back to Top](#table-of-contents)**
 
 3. ### What is TypeScript?
     TypeScript is a strongly typed superset of JavaScript created by Microsoft that adds optional types, classes, async/await and many other features, and compiles to plain JavaScript. Angular is written entirely in TypeScript as a primary language.

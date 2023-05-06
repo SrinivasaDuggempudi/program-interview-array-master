@@ -7,9 +7,9 @@
 
 | No. | Questions |
 |---- | ---------
-|1 | [What is Angular Framework?](#what-is-angular-framework)|
+|1 | [Write a program in Java for, In array 1-100 numbers are stored, one number is missing how do you find it?](#Find missing number)|
 |2 | [What is the difference between AngularJS and Angular?](#what-is-the-difference-between-angularjs-and-angular)|
-|3 | [What is TypeScript?](#what-is-typescript)|
+|3 | [What is TypeScript?](#what-is-typescript)| Ni
 |4 | [Write a pictorial diagram of Angular architecture?](#write-a-pictorial-diagram-of-angular-architecture)|
 |5 | [What are the key components of Angular?](#what-are-the-key-components-of-angular)|
 |6 | [What are directives?](#what-are-directives)|
@@ -287,9 +287,9 @@
 |278| [How to create a standalone component manually?](#how-to-create-a-standalone-component-manually)
 |279| [](#)
 
-1. ### What is Angular Framework?
+1. ### Write a program in Java for, In array 1-100 numbers are stored, one number is missing how do you find it?
 
-    Angular is a **TypeScript-based open-source** front-end platform that makes it easy to build web, mobile and desktop applications. The major features of this framework include declarative templates, dependency injection, end to end tooling which ease application development.
+   ![ScreenShot](images/find-missing-number.png)
 
   **[⬆ Back to Top](#table-of-contents)**
 

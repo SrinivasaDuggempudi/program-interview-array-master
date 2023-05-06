@@ -1,29 +1,14 @@
 # Java Arrays Interview Questions and Answers
 
->Click ⭐if you like the project and follow for technical updates
+>Author : Srinivasa Duggempudi
 
----
-
-<p align="center">
-  <a href=https://zerotomastery.io/?utm_source=github&utm_medium=sponsor&utm_campaign=angular-interview-questions>
-    <img src=https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=height:70/https://www.filepicker.io/api/file/AKYtjj5SSGyJuyZrkAB2 alt="ZTM Logo" width="100" height="50">
-  </a>
-  <p align="center">
-    <ol>
-    <li>Take this <a href=https://links.zerotomastery.io/angular_sudheer>Angular course</a> to go from a complete Angular beginner to confidently building enterprise-level applications from scratch</li>
-    <li>Take this <a href=https://links.zerotomastery.io/mci_sudheer3>coding interview bootcamp</a> if you’re serious about getting hired and don’t have a CS degree</li>
-    </ol>
-  </p>
-</p>
-
----
 
 ### Table of Contents
 
 | No. | Questions |
 |---- | ---------
 |1 | [Find a missing number?](#find-a-missing-number)|
-|2 | [What is the difference between AngularJS and Angular?](#what-is-the-difference-between-angularjs-and-angular)|
+|2 | [Find the multile duplicate numbers in the array?](#Find-the-multiple-duplicate-numbers-in-the-array)|
 |3 | [What is TypeScript?](#what-is-typescript)| 
 |4 | [Write a pictorial diagram of Angular architecture?](#write-a-pictorial-diagram-of-angular-architecture)|
 |5 | [What are the key components of Angular?](#what-are-the-key-components-of-angular)|
@@ -350,18 +335,41 @@ public class A01_FindMissingNumber {
 
   **[⬆ Back to Top](#table-of-contents)**
 
-2. ### What is the difference between AngularJS and Angular?
-    Angular is a completely revived component-based framework in which an application is a tree of individual components.
+2. ### Find the multile duplicate numbers in the array?
+    Write a program in Java for, In a array 1-100 multiple numbers are duplicates, how do you find it.
+    ''' 
+    package arrays;
 
-    Here are some of the major differences in tabular format:-
+public class A02_MultipleNumbersDuplicate {
 
-    | AngularJS | Angular |
-    |---- | ---------
-    | It is based on MVC architecture| This is based on Service/Controller|
-    | It uses JavaScript to build the application| Uses TypeScript to build the application|
-    | Based on controllers concept| This is a component based UI approach|
-    | No support for mobile platforms| Fully supports mobile platforms|
-    | Difficult to build SEO friendly application| Ease to build SEO friendly applications|
+	//2.	Write a program in Java for, In a array 1-100 multiple numbers are duplicates, how do you find it.
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int arr [] = {2,3,2,5,6,5,7,1,4,8,4,7,1};
+		
+		for(int i=0 ; i< arr.length ; i++) {
+			int count =0;
+			for(int j=i ; j < arr.length ; j++) {
+				
+				if(arr[i] == arr[j]) {
+				count = count+1;
+				}
+				
+				if(count == 2) {
+					System.out.print(" "+arr[j]);
+					break;
+				}
+			}
+		}
+	}
+}
+
+    '''
+    output
+    '''
+    2 5 7 1 4
+    '''
 
   **[⬆ Back to Top](#table-of-contents)**
 

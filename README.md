@@ -22,7 +22,7 @@
 
 | No. | Questions |
 |---- | ---------
-|1 | [Write a program in Java for, In array 1-100 numbers are stored, one number is missing how do you find it?](#what-is-typescript)|
+|1 | [Find a missing number?](#find-a-missing-number)|
 |2 | [What is the difference between AngularJS and Angular?](#what-is-the-difference-between-angularjs-and-angular)|
 |3 | [What is TypeScript?](#what-is-typescript)| 
 |4 | [Write a pictorial diagram of Angular architecture?](#write-a-pictorial-diagram-of-angular-architecture)|
@@ -302,9 +302,9 @@
 |278| [How to create a standalone component manually?](#how-to-create-a-standalone-component-manually)
 |279| [](#)
 
-1. ### Write a program in Java for, In array 1-100 numbers are stored, one number is missing how do you find it?
+1. ### Find a missing number?
 
-   
+Write a program in Java for, In array 1-100 numbers are stored, one number is missing how do you find it?
    ```
    package arrays;
 

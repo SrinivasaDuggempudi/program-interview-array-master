@@ -7,7 +7,7 @@
 
 | No. | Questions |
 |---- | ---------
-|1 | [Write a program in Java for, In array 1-100 numbers are stored, one number is missing how do you find it?](#Find missing number)|
+|1 | [Write a program in Java for, In array 1-100 numbers are stored, one number is missing how do you find it?](# Find missing number)|
 |2 | [What is the difference between AngularJS and Angular?](#what-is-the-difference-between-angularjs-and-angular)|
 |3 | [What is TypeScript?](#what-is-typescript)| Ni
 |4 | [Write a pictorial diagram of Angular architecture?](#write-a-pictorial-diagram-of-angular-architecture)|
@@ -289,8 +289,8 @@
 
 1. ### Write a program in Java for, In array 1-100 numbers are stored, one number is missing how do you find it?
 
-   ---
    
+   ```
    package arrays;
 
 public class A01_FindMissingNumber {
@@ -326,12 +326,12 @@ public class A01_FindMissingNumber {
     }
 }
    
-   ---
+ ```
    Output :
    
-   ---
+  ```
      4
-   ----
+  ```
 
   **[⬆ Back to Top](#table-of-contents)**
 

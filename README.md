@@ -289,7 +289,49 @@
 
 1. ### Write a program in Java for, In array 1-100 numbers are stored, one number is missing how do you find it?
 
-   ![ScreenShot](images/find-missing-number.png)
+   ---
+   
+   package arrays;
+
+public class A01_FindMissingNumber {
+
+	// Function to find the missing number
+	//{ 1, 3, 7, 5, 6, 2 };
+    public static void findMissing(int arr[], int N)
+    {
+        int i;
+        int temp[] = new int[N + 1];
+        for (i = 0; i <= N; i++) {
+            temp[i] = 0;
+        }
+  
+        for (i = 0; i < N; i++) {
+            temp[arr[i] - 1] = 1;
+        }
+        int ans = 0;
+        for (i = 0; i <= N; i++) {
+            if (temp[i] == 0)
+                ans = i + 1;
+        }
+        System.out.println(ans);
+    }
+    // Driver Code
+    public static void main(String[] args)
+    {
+        int arr[] = { 1, 3, 7, 5, 6, 2 };
+        int n = arr.length;
+  
+        // Function call
+        findMissing(arr, n);
+    }
+}
+   
+   ---
+   Output :
+   
+   ---
+     4
+   ----
 
   **[⬆ Back to Top](#table-of-contents)**
 

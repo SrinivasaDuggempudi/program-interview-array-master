@@ -8,7 +8,7 @@
 | No. | Questions |
 |---- | ---------
 |1 | [Find a missing number?](#find-a-missing-number)|
-|2 | [Find the multile duplicate numbers in the array?](#find-the-multiple-duplicate-numbers-in-the-array)|
+|2 | [Find a multile duplicate numbers in the array?](#find-a-multile-duplicate-numbers-in-the-array)|
 |3 | [What is TypeScript?](#what-is-typescript)| 
 |4 | [Write a pictorial diagram of Angular architecture?](#write-a-pictorial-diagram-of-angular-architecture)|
 |5 | [What are the key components of Angular?](#what-are-the-key-components-of-angular)|
@@ -335,11 +335,12 @@ public class A01_FindMissingNumber {
 
   **[⬆ Back to Top](#table-of-contents)**
 
-2. ### Find the multile duplicate numbers in the array?
+2. ### Find a multile duplicate numbers in the array?
+    
     Write a program in Java for, In a array 1-100 multiple numbers are duplicates, how do you find it.
     
-    
-   ``` package arrays;
+    ```
+   package arrays;
 
 public class A02_MultipleNumbersDuplicate {
 
@@ -365,13 +366,13 @@ public class A02_MultipleNumbersDuplicate {
 		}
 	}
 }
+
 ```
-  
-    Output
+  Output :
     
-    ```
+ ```
         2 5 7 1 4
-    ```
+ ```
     
     
 

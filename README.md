@@ -1,6 +1,6 @@
 # Java Arrays Interview Questions and Answers
 
->collected By : Srinivasa Duggempudi
+>Click ⭐if you like the project and follow for technical updates
 
 ---
 

@@ -368,7 +368,7 @@ public class A01_FindMissingNumber {
         }
 
      ```
-      ***Output : ***2 5 7 1 4
+      **Output :** 2 5 7 1 4
        
 
  **[⬆ Back to Top](#table-of-contents)**

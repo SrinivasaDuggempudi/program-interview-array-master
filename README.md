@@ -13,7 +13,7 @@
 |4 | [Number not present in second array ?](#Number-not-present-in-second-array)|
 |5 | [Find a duplicate number in array?](#Find-a-duplicate-number-in-array)|
 |6 | [Largest and smallest numbers of array?](#Largest-and-smallest-numbers-of-array)|
-|7 | [Find second largest number in array ?](#Find-second-largest-number-in-array)|
+|7 | [Find second largest number in array?](#Find-second-largest-number-in-array)|
 |8 | [What are the differences between Component and Directive?](#what-are-the-differences-between-component-and-directive)|
 |9 | [What is a template?](#what-is-a-template)|
 |10| [What is a module?](#what-is-a-module)|
@@ -225,7 +225,7 @@ public class A01_FindMissingNumber {
   
   **[⬆ Back to Top](#table-of-contents)**
 
-7. ### Find second largest number in array ?
+7. ### Find second largest number in array?
     Write a program in Java to find second highest number in an integer array.
     ```
         public class A07_SecondLargestNumberInArray {

@@ -14,7 +14,7 @@
 |5 | [Find a duplicate number in array?](#Find-a-duplicate-number-in-array)|
 |6 | [Largest and smallest numbers of array?](#Largest-and-smallest-numbers-of-array)|
 |7 | [Find second largest number in array?](#Find-second-largest-number-in-array)|
-|8 | [What are the differences between Component and Directive?](#what-are-the-differences-between-component-and-directive)|
+|8 | [Find top two maximum numbers?](#Find-top-two-maximum-numbers)|
 |9 | [What is a template?](#what-is-a-template)|
 |10| [What is a module?](#what-is-a-module)|
 
@@ -251,18 +251,30 @@ public class A01_FindMissingNumber {
     
   **[⬆ Back to Top](#table-of-contents)**
 
-8. ### What are the differences between Component and Directive?
-    In a short note, A component(@component) is a directive-with-a-template.
+8. ### Find top two maximum numbers?
+```
+    public class A08_TopTwoMaximumNumbers {
 
-    Some of the major differences are mentioned in a tabular form
+	//8.	Write a program in Java to find top two maximum number in array?
+	
+	public static void main(String[] args) {
+		
+		int arr[] = {9,7,2,5,4,11};
+		int largest =0;
+		int secondLargest =0;
+		
+		for(int i=0; i< arr.length ; i++) {
+			
+			if(arr[i] > largest) {
+				secondLargest = largest;
+				largest =arr[i];
+			}
+		}
+		System.out.println("Largest : " +largest + " secondLargest :" + secondLargest);
+	        }
+           }
 
-    | Component | Directive |
-    |---- | ---------
-    | To register a component we use @Component meta-data annotation  | To register a directive we use @Directive meta-data annotation |
-    | Components are typically used to create UI widgets| Directives are used to add behavior to an existing DOM element |
-    | Component is used to break down the application into smaller components| Directive is used to design re-usable components|
-    | Only one component can be present per DOM element | Many directives can be used per DOM element |
-    | @View decorator or templateurl/template are mandatory | Directive doesn't use View|
+```
 
   **[⬆ Back to Top](#table-of-contents)**
 

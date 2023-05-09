@@ -10,7 +10,7 @@
 |1 | [Find a missing number?](#find-a-missing-number)|
 |2 | [Find a multile duplicate numbers in the array?](#find-a-multile-duplicate-numbers-in-the-array)|
 |3 | [Pair of numbers equal to sum?](#Pair-of-numbers-equal-to-sum)| 
-|4 | [Number not present in second array ?](#number-not-present-in-second-array)|
+|4 | [Number not present in second array ?](#Number-not-present-in-second-array)|
 |5 | [What are the key components of Angular?](#what-are-the-key-components-of-angular)|
 |6 | [What are directives?](#what-are-directives)|
 |7 | [What are components?](#what-are-components)|

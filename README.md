@@ -136,7 +136,7 @@ public class A01_FindMissingNumber {
 
   **[⬆ Back to Top](#table-of-contents)**
 
-4. ### Number not present in second array ?
+4. ### Number not present in second array
      Write a program in Java for, Given two arrays 1,2,3,4,5 and 2,3,1,0,5 find which number is not present in the second array.
      ```
 	                  package arrays;

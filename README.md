@@ -193,7 +193,7 @@ public class A01_FindMissingNumber {
                       }
 		      
      ```
-   **output : ** 2
+   **output :** 2
 
   **[⬆ Back to Top](#table-of-contents)**
 

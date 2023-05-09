@@ -15,7 +15,7 @@
 |6 | [Largest and smallest numbers of array?](#Largest-and-smallest-numbers-of-array)|
 |7 | [Find second largest number in array?](#Find-second-largest-number-in-array)|
 |8 | [Find top two maximum numbers?](#Find-top-two-maximum-numbers)|
-|9 | [What is a template?](#what-is-a-template)|
+|9 | [Reverse the array?](#Reverse-the-array)|
 |10| [What is a module?](#what-is-a-module)|
 
 
@@ -279,66 +279,29 @@ public class A01_FindMissingNumber {
 
   **[⬆ Back to Top](#table-of-contents)**
 
-9. ### What is a template?
-    A template is a HTML view where you can display data by binding controls to properties of an Angular component. You can store your component's template in one of two places. You can define it inline using the template property, or you can define the template in a separate HTML file and link to it in the component metadata using the @Component decorator's templateUrl property.
+9. ### Reverse the array?
 
-    **Using inline template with template syntax,**
-    ```typescript
-    import { Component } from '@angular/core';
-
-    @Component ({
-       selector: 'my-app',
-       template: '
-          <div>
-             <h1>{{title}}</h1>
-             <div>Learn Angular</div>
-          </div>
-       '
-    })
-
-    export class AppComponent {
-       title: string = 'Hello World';
-    }
-    ```
-    **Using separate template file such as app.component.html**
-    ```typescript
-    import { Component } from '@angular/core';
-
-    @Component ({
-       selector: 'my-app',
-       templateUrl: 'app/app.component.html'
-    })
-
-    export class AppComponent {
-       title: string = 'Hello World';
-    }
-    ```
-
+```
+    public class A09_ReverseOrder {
+	//9.	Java program to print array in reverse Order.
+	public static void main(String[] args) {
+		
+		int arr[] = {9,8,7,6,5};
+		int result[] = new int[arr.length];
+		int index =0;
+		
+		for(int i=arr.length-1 ; i>=0 ; i--) {
+			result[index] = arr[i];
+			index++;
+		}
+		System.out.println(Arrays.toString(result));
+	}
+       }
+```
   **[⬆ Back to Top](#table-of-contents)**
 
 10. ### What is a module?
 
-    Modules are logical boundaries in your application and the application is divided into separate modules to separate the functionality of your application.
-    Lets take an example of **app.module.ts** root module declared with **@NgModule** decorator as below,
-    ```typescript
-    import { NgModule }      from '@angular/core';
-    import { BrowserModule } from '@angular/platform-browser';
-    import { AppComponent }  from './app.component';
-
-    @NgModule ({
-       imports:      [ BrowserModule ],
-       declarations: [ AppComponent ],
-       bootstrap:    [ AppComponent ],
-       providers: []
-    })
-    export class AppModule { }
-    ```
-    The NgModule decorator has five important (among all) options:
-    1. The imports option is used to import other dependent modules. The BrowserModule is required by default for any web based angular application.
-    2. The declarations option is used to define components in the respective module.
-    3. The bootstrap option tells Angular which Component to bootstrap in the application.
-    4. The providers option is used to configure a set of injectable objects that are available in the injector of this module.
-    5. The entryComponents option is a set of components dynamically loaded into the view.
 
   **[⬆ Back to Top](#table-of-contents)**
 

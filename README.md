@@ -11,7 +11,7 @@
 |2 | [Find a multile duplicate numbers in the array?](#find-a-multile-duplicate-numbers-in-the-array)|
 |3 | [Pair of numbers equal to sum?](#Pair-of-numbers-equal-to-sum)| 
 |4 | [Number not present in second array ?](#Number-not-present-in-second-array)|
-|5 | [What are the key components of Angular?](#what-are-the-key-components-of-angular)|
+|5 | [Find a duplicate number in array?](#Find-a-duplicate-number-in-array)|
 |6 | [What are directives?](#what-are-directives)|
 |7 | [What are components?](#what-are-components)|
 |8 | [What are the differences between Component and Directive?](#what-are-the-differences-between-component-and-directive)|
@@ -166,13 +166,34 @@ public class A01_FindMissingNumber {
    
   **[⬆ Back to Top](#table-of-contents)**
 
-5. ### What are the key components of Angular?
-    Angular has the key components below,
-    1. **Component:** These are the basic building blocks of an Angular application to control HTML views.
-    2. **Modules:** An Angular module is a set of angular basic building blocks like components, directives, services etc. An application is divided into logical pieces and each piece of code is called as "module" which perform a single task.
-    3. **Templates:** These represent the views of an Angular application.
-    4. **Services:** Are used to create components which can be shared across the entire application.
-    5. **Metadata:** This can be used to add more data to an Angular class.
+5. ### Find a duplicate number in array??
+     Write a program in Java for, Given two arrays 1,2,3,4,5 and 2,3,1,0,5 find which number is not present in the second array.
+     ```
+                  public class A04_FindDuplicate {
+
+	   //5.	Write a program in Java for, Given two arrays 1,2,3,4,5 and 2,3,1,0,5 find which number is not present in the second array.
+	      public static void main(String[] args) {
+		
+		int arr[] = {1,2,5,4,3,2,9};
+		
+		for(int i=0 ; i< arr.length-1 ; i++) {
+			
+			int count =1;
+			for (int j= i+1; j<arr.length ; j++) {
+				
+				if(arr[i] == arr[j]) {
+					count ++;
+					if(count ==2){
+						System.out.println(arr[i]);
+					}
+				   }
+			       }
+		           }
+	                }
+                      }
+		      
+     ```
+   **output : ** 2
 
   **[⬆ Back to Top](#table-of-contents)**
 

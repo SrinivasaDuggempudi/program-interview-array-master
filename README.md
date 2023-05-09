@@ -12,7 +12,7 @@
 |3 | [Pair of numbers equal to sum?](#Pair-of-numbers-equal-to-sum)| 
 |4 | [Number not present in second array ?](#Number-not-present-in-second-array)|
 |5 | [Find a duplicate number in array?](#Find-a-duplicate-number-in-array)|
-|6 | [What are directives?](#what-are-directives)|
+|6 | [Largest and smallest numbers of array?](#Largest and smallest numbers of array)|
 |7 | [What are components?](#what-are-components)|
 |8 | [What are the differences between Component and Directive?](#what-are-the-differences-between-component-and-directive)|
 |9 | [What is a template?](#what-is-a-template)|
@@ -197,23 +197,32 @@ public class A01_FindMissingNumber {
 
   **[⬆ Back to Top](#table-of-contents)**
 
-6. ### What are directives?
-    Directives add behaviour to an existing DOM element or an existing component instance.
-    ```typescript
-    import { Directive, ElementRef, Input } from '@angular/core';
-
-    @Directive({ selector: '[myHighlight]' })
-    export class HighlightDirective {
-        constructor(el: ElementRef) {
-           el.nativeElement.style.backgroundColor = 'yellow';
-        }
-    }
-    ```
-
-    Now this directive extends HTML element behavior with a yellow background as below
-    ```html
-    <p myHighlight>Highlight me!</p>
-    ```
+6. ### Largest and smallest numbers of array?
+    Write a program in Java to find largest and smallest number in array
+     ```
+          public class A06_LargestAndSmallestNumber {
+    //6.	Write a program in Java to find largest and smallest number in array
+	public static void main(String[] args) {
+		int arr[] = {1,2,3,4,5,6,7};
+		
+		int smallest = arr[0];
+		int largest = arr[0];
+		
+		for(int i=1 ; i< arr.length; i++ ) {
+			if(arr[i] < smallest) {
+				smallest = arr[i];
+			}
+			
+			if(arr[i] > largest) {
+				largest = arr[i];
+			}
+		}
+		System.out.println("Smallets:" + smallest + "   largest : "+largest);
+	     }
+         }     
+     ```
+     **OutPut:**  Smallets:1   largest : 7
+  
   **[⬆ Back to Top](#table-of-contents)**
 
 7. ### What are components?

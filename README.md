@@ -275,6 +275,7 @@ public class A01_FindMissingNumber {
            }
 
 ```
+**Output :**  Largest : 11 secondLargest :9
 
   **[⬆ Back to Top](#table-of-contents)**
 

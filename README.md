@@ -13,7 +13,7 @@
 |4 | [Number not present in second array ?](#Number-not-present-in-second-array)|
 |5 | [Find a duplicate number in array?](#Find-a-duplicate-number-in-array)|
 |6 | [Largest and smallest numbers of array?](#Largest-and-smallest-numbers-of-array)|
-|7 | [What are components?](#what-are-components)|
+|7 | [Find second largest number in array ?](#Find-second-largest-number-in-array)|
 |8 | [What are the differences between Component and Directive?](#what-are-the-differences-between-component-and-directive)|
 |9 | [What is a template?](#what-is-a-template)|
 |10| [What is a module?](#what-is-a-module)|
@@ -225,25 +225,30 @@ public class A01_FindMissingNumber {
   
   **[⬆ Back to Top](#table-of-contents)**
 
-7. ### What are components?
-    Components are the most basic UI building block of an Angular app, which form a tree of Angular components. These components are a subset of directives. Unlike directives, components always have a template, and only one component can be instantiated per element in a template.
-    Let's see a simple example of Angular component
-    ```typescript
-    import { Component } from '@angular/core';
-
-    @Component ({
-       selector: 'my-app',
-       template: ` <div>
-          <h1>{{title}}</h1>
-          <div>Learn Angular6 with examples</div>
-       </div> `,
-    })
-
-    export class AppComponent {
-       title: string = 'Welcome to Angular world';
-    }
+7. ### Find second largest number in array ?
+    Write a program in Java to find second highest number in an integer array.
     ```
+        public class A07_SecondLargestNumberInArray {
 
+	//7.	Write a program in Java to find second highest number in an integer array.
+	public static void main(String[] args) {
+
+      int []arr = {5,8,3,9,2,6};
+      int largest =0;
+      int secondLargest=0;
+      
+      for(int i=0 ; i< arr.length ; i++) {
+    	  if(arr[i] > largest) {
+    		  secondLargest = largest;
+    		  largest = arr[i]; 
+    	  }
+      }
+      System.out.println("Second Largest : " + secondLargest);
+	}
+      }
+    ```
+    **Output :**   Second Largest : 8
+    
   **[⬆ Back to Top](#table-of-contents)**
 
 8. ### What are the differences between Component and Directive?

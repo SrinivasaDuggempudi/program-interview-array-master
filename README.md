@@ -12,7 +12,7 @@
 |3 | [Pair of numbers equal to sum?](#Pair-of-numbers-equal-to-sum)| 
 |4 | [Number not present in second array ?](#Number-not-present-in-second-array)|
 |5 | [Find a duplicate number in array?](#Find-a-duplicate-number-in-array)|
-|6 | [Largest and smallest numbers of array?](#Largest and smallest numbers of array)|
+|6 | [Largest and smallest numbers of array?](#Largest-and-smallest-numbers-of-array)|
 |7 | [What are components?](#what-are-components)|
 |8 | [What are the differences between Component and Directive?](#what-are-the-differences-between-component-and-directive)|
 |9 | [What is a template?](#what-is-a-template)|

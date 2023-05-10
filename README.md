@@ -23,7 +23,7 @@
 |14| [Delete the given element from array?](#Delete-the-given-element-from-array)|
 |15| [Delete the element from given index?](#Delete-the-element-from-given-index)|
 |16| [Sum of the array elements?](#Sum-of-the-array-elements)|
-|17| [What is a module?](#what-is-a-module)|
+|17| [Print even numbers of the array?](#Print-even-numbers-of-the-array)|
 |18| [What is a module?](#what-is-a-module)|
 |19| [What is a module?](#what-is-a-module)|
 |20| [What is a module?](#what-is-a-module)|
@@ -497,14 +497,34 @@ New Array: [25, 14, 5, 56, 15, 36, 56, 77, 18, 29]
     }
 
 ```
-**OUTPUT : **
+**OUTPUT :**
 
 Sum : 375
 
   **[⬆ Back to Top](#table-of-contents)**
   
-17. ### What is a module?
+17. ### Print even numbers of the array?
+```
+  import java.util.Arrays;
+  public class A17_EvennumbersOfArray {
 
+	//11.	Java program to Print even numbers of the array.
+	public static void main(String[] args) {
+		int[] arr = { 25, 14, 56, 15, 36, 56, 77, 18, 29, 49 };
+		
+		int[] newArr= new int[arr.length];
+		
+		for(int i=0, j=0 ; i<arr.length ; i++) {
+			if(arr[i]%2 == 0) {
+				newArr[j] = arr[i];
+				j++;
+			}
+		}
+		System.out.println(Arrays.toString(newArr));
+	}
+   }
+```
+**OUTPUT :** [14, 56, 36, 56, 18, 0, 0, 0, 0, 0]
 
   **[⬆ Back to Top](#table-of-contents)** 
   

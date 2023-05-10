@@ -21,7 +21,7 @@
 |12| [Insert an element at given Location?](#Insert-an-element-at-given-location)|
 |13| [Delete element at end of the array?](#Delete-element-at-end-of-the-array)|
 |14| [Delete the given element from array?](#Delete-the-given-element-from-array)|
-|15| [What is a module?](#what-is-a-module)|
+|15| [Delete the element from given index?](#Delete-the-element-from-given-index)|
 |16| [What is a module?](#what-is-a-module)|
 |17| [What is a module?](#what-is-a-module)|
 |18| [What is a module?](#what-is-a-module)|
@@ -448,13 +448,36 @@ New Array: [25, 14, 5, 56, 15, 36, 56, 77, 18, 29]
 		System.out.println(Arrays.toString(newArr));
 	}
       }
-
 ```
 **OUTPUT :** [25, 14, 56, 15, 56, 77, 18, 29, 49]
   **[⬆ Back to Top](#table-of-contents)** 
   
-15. ### What is a module?
+15. ### Delete the element from given index?
+```
+          package arrays;
+       import java.util.Arrays;
+      public class A15_DeleteGivenIndex {
 
+	//15.	Java program to Delete the element from given index.
+	public static void main(String[] args) {
+		int[] arr = { 25, 14, 56, 15, 36, 56, 77, 18, 29, 49 };
+		int newArr[] = new int[arr.length-1];
+		int givenIndex = 3;
+		
+		for(int i=0 , j=0 ; i< arr.length ; i++) {
+			
+			if(i == givenIndex) {
+				continue;
+			}
+			
+			newArr[j] = arr[i];
+			j++;
+		}
+		System.out.println(Arrays.toString(newArr));
+	}
+      }
+```
+**OUTPUT :** [25, 14, 56, 36, 56, 77, 18, 29, 49]
 
   **[⬆ Back to Top](#table-of-contents)** 
   

@@ -19,7 +19,7 @@
 |10| [Reverse array without new array?](#Reverse-array-without-new-array)|
 |11| [Insert element at end of the array?](#Insert-element-at-end-of-the-array)|
 |12| [Insert an element at given Location?](#Insert-an-element-at-given-location)|
-|13| [What is a module?](#what-is-a-module)|
+|13| [Delete element at end of the array?](#Delete-element-at-end-of-the-array)|
 |14| [What is a module?](#what-is-a-module)|
 |15| [What is a module?](#what-is-a-module)|
 
@@ -387,15 +387,34 @@ package arrays;
 	}
      }
 ```
-**OUTPUT : ** 
+**OUTPUT :** 
 
 Original Array : [25, 14, 56, 15, 36, 56, 77, 18, 29, 49]
 New Array: [25, 14, 5, 56, 15, 36, 56, 77, 18, 29]
 
   **[⬆ Back to Top](#table-of-contents)**
   
- 13. ### What is a module?
-
+ 13. ### Delete element at end of the array?
+```
+            public class A13_DeleteAtEndOfArray {
+	//11.	Java program to Delete element at end of the array?
+	public static void main(String[] args) {
+		int[] arr = { 25, 14, 56, 15, 36, 56, 77, 18, 29, 49 };
+		
+		int newArr[] = new int[arr.length-1];
+		
+		for(int i=0 ; i< arr.length ; i++) {
+			
+			if(i == arr.length-1) {
+				continue ;
+			}
+			newArr[i] = arr[i];
+		}
+		System.out.println(Arrays.toString(newArr));
+	}
+     }    
+```
+**OUTPUT :**  [25, 14, 56, 15, 36, 56, 77, 18, 29]
 
   **[⬆ Back to Top](#table-of-contents)**
   

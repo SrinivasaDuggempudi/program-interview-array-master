@@ -16,7 +16,7 @@
 |7 | [Find second largest number in array?](#Find-second-largest-number-in-array)|
 |8 | [Find top two maximum numbers?](#Find-top-two-maximum-numbers)|
 |9 | [Reverse the array?](#Reverse-the-array)|
-|10| [What is a module?](#what-is-a-module)|
+|10| [Reverse array without new array?](#Reverse-array-without-new-array)|
 |11| [What is a module?](#what-is-a-module)|
 |12| [What is a module?](#what-is-a-module)|
 |13| [What is a module?](#what-is-a-module)|
@@ -308,9 +308,31 @@ public class A01_FindMissingNumber {
 
   **[⬆ Back to Top](#table-of-contents)**
 
-10. ### What is a module?
-
-
+10. ### Reverse array without new array?
+```
+           package arrays;
+       import java.util.Arrays;
+     public class A10_ReverseArrayWithoutSecondArray {
+	
+	//10. Java program to reverse the array without new array.
+	public static void main(String[] args) {
+			int arr[] = {9,8,7,6,5};
+			
+			int middle = arr.length/2;
+			int j = arr.length-1;
+			int temp =0;
+			
+		for(int i=0 ; i< middle ; i++ , j--) {
+			
+			temp =arr[i];
+			arr[i]= arr[j];
+			arr[j] = temp;
+		}
+		System.out.println(Arrays.toString(arr));
+	}
+    }
+```
+**OutPut :** [5, 6, 7, 8, 9]
   **[⬆ Back to Top](#table-of-contents)**
   
 11. ### What is a module?

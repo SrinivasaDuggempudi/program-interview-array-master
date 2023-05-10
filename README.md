@@ -17,7 +17,7 @@
 |8 | [Find top two maximum numbers?](#Find-top-two-maximum-numbers)|
 |9 | [Reverse the array?](#Reverse-the-array)|
 |10| [Reverse array without new array?](#Reverse-array-without-new-array)|
-|11| [What is a module?](#what-is-a-module)|
+|11| [Insert element at end of the array?](#Insert-element-at-end-of-the-array)|
 |12| [What is a module?](#what-is-a-module)|
 |13| [What is a module?](#what-is-a-module)|
 |14| [What is a module?](#what-is-a-module)|
@@ -336,8 +336,30 @@ public class A01_FindMissingNumber {
 
   **[⬆ Back to Top](#table-of-contents)**
   
-11. ### What is a module?
+11. ### Insert element at end of the array??
+```
 
+package arrays;
+
+    import java.util.Arrays;
+    public class A11_InsertAtEndOfTheArray {
+
+	//17.	Java Program to print all even numbers in array.
+	public static void main(String[] args) {
+		int givenNumber =10;
+		int arr[] = {9,8,7,6,5};
+		int newArr[] = new int[arr.length+1];
+		
+		for(int i=0 ; i< arr.length ; i++) {
+			newArr[i] = arr[i];
+		}
+		
+		newArr[arr.length] = givenNumber;
+		System.out.println(Arrays.toString(newArr));
+	 }
+      }
+```
+**OUTPUT :** [9, 8, 7, 6, 5, 10]
 
   **[⬆ Back to Top](#table-of-contents)**
   

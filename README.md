@@ -25,7 +25,7 @@
 |16| [Sum of the array elements?](#Sum-of-the-array-elements)|
 |17| [Print even numbers of the array?](#Print-even-numbers-of-the-array)|
 |18| [Print all odd numbers in array?](#Print-all-odd-numbers-in-array)|
-|19| [What is a module?](#what-is-a-module)|
+|19| [Left rotation of Kth element?](#Left-rotation-of-Kth-element)|
 |20| [What is a module?](#what-is-a-module)|
 |21| [What is a module?](#what-is-a-module)|
 |22| [What is a module?](#what-is-a-module)|
@@ -528,7 +528,7 @@ Sum : 375
 
   **[⬆ Back to Top](#table-of-contents)** 
   
-18. ### What is a modulePrint all odd numbers in array?
+18. ### Print all odd numbers in array?
 ```
     import java.util.Arrays;
     public class A18_OddnumbersOfArray {
@@ -554,7 +554,8 @@ Sum : 375
 
   **[⬆ Back to Top](#table-of-contents)**
   
-19. ### What is a module?
+19. ### Left rotation of Kth element?
+
 
 
   **[⬆ Back to Top](#table-of-contents)**

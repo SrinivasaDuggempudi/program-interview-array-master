@@ -22,7 +22,7 @@
 |13| [Delete element at end of the array?](#Delete-element-at-end-of-the-array)|
 |14| [Delete the given element from array?](#Delete-the-given-element-from-array)|
 |15| [Delete the element from given index?](#Delete-the-element-from-given-index)|
-|16| [What is a module?](#what-is-a-module)|
+|16| [Sum of the array elements?](#Sum-of-the-array-elements)|
 |17| [What is a module?](#what-is-a-module)|
 |18| [What is a module?](#what-is-a-module)|
 |19| [What is a module?](#what-is-a-module)|
@@ -481,8 +481,25 @@ New Array: [25, 14, 5, 56, 15, 36, 56, 77, 18, 29]
 
   **[⬆ Back to Top](#table-of-contents)** 
   
- 16. ### What is a module?
+ 16. ### Sum of the array elements?
+``` 
+   public class A16_SumOfArrayElements {
 
+	//11.	Java program to Sum of the array elements.
+	public static void main(String[] args) {
+		int[] arr = { 25, 14, 56, 15, 36, 56, 77, 18, 29, 49 };
+		int sum=0;
+		for(int a : arr) {
+			sum = sum+a;
+		}
+		System.out.println("Sum : "+sum);
+	}
+    }
+
+```
+**OUTPUT : **
+
+Sum : 375
 
   **[⬆ Back to Top](#table-of-contents)**
   

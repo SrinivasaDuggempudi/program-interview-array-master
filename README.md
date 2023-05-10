@@ -20,7 +20,7 @@
 |11| [Insert element at end of the array?](#Insert-element-at-end-of-the-array)|
 |12| [Insert an element at given Location?](#Insert-an-element-at-given-location)|
 |13| [Delete element at end of the array?](#Delete-element-at-end-of-the-array)|
-|14| [Delete the given element from array?](#Delete-the-given-element-from-arry)|
+|14| [Delete the given element from array?](#Delete-the-given-element-from-array)|
 |15| [What is a module?](#what-is-a-module)|
 |16| [What is a module?](#what-is-a-module)|
 |17| [What is a module?](#what-is-a-module)|
@@ -461,7 +461,8 @@ New Array: [25, 14, 5, 56, 15, 36, 56, 77, 18, 29]
  16. ### What is a module?
 
 
-  **[⬆ Back to Top](#table-of-contents)** 
+  **[⬆ Back to Top](#table-of-contents)**
+  
 17. ### What is a module?
 
 
@@ -471,6 +472,7 @@ New Array: [25, 14, 5, 56, 15, 36, 56, 77, 18, 29]
 
 
   **[⬆ Back to Top](#table-of-contents)**
+  
 19. ### What is a module?
 
 

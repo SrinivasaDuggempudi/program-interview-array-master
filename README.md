@@ -18,7 +18,7 @@
 |9 | [Reverse the array?](#Reverse-the-array)|
 |10| [Reverse array without new array?](#Reverse-array-without-new-array)|
 |11| [Insert element at end of the array?](#Insert-element-at-end-of-the-array)|
-|12| [What is a module?](#what-is-a-module)|
+|12| [Insert an element at given Location?](#Insert-an-element-at-given-location)|
 |13| [What is a module?](#what-is-a-module)|
 |14| [What is a module?](#what-is-a-module)|
 |15| [What is a module?](#what-is-a-module)|
@@ -363,8 +363,34 @@ package arrays;
 
   **[⬆ Back to Top](#table-of-contents)**
   
- 12. ### What is a module?
+ 12. ### Insert an element at given Location?
+```
+        package arrays;
 
+    import java.util.Arrays;
+    public class A12_InsertAtgivenLocation {
+
+	// 12. Java program to insert an element at given Location
+	public static void main(String[] args) {
+
+		int[] arr = { 25, 14, 56, 15, 36, 56, 77, 18, 29, 49 };
+
+		int givenIndex = 2;
+		int newValue = 5;
+		System.out.println("Original Array : " + Arrays.toString(arr));
+
+		for (int i = arr.length - 1; i > givenIndex; i--) {
+			arr[i] = arr[i - 1];
+		}
+		arr[givenIndex] = newValue;
+		System.out.println("New Array: " + Arrays.toString(arr));
+	}
+     }
+```
+**OUTPUT : ** 
+
+Original Array : [25, 14, 56, 15, 36, 56, 77, 18, 29, 49]
+New Array: [25, 14, 5, 56, 15, 36, 56, 77, 18, 29]
 
   **[⬆ Back to Top](#table-of-contents)**
   

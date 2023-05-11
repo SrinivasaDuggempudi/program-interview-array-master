@@ -29,7 +29,7 @@
 |20| [Right rotation of Kth elements?](#Right-rotation-of-Kth-elements)|
 |21| [Remove duplicates without new array?](#Remove-duplicates-without-new-array)|
 |22| [Remove Duplicate?](#Remove-Duplicate)|
-|23| [Abc xyz?](#Abc xyze)|
+|23| [Abc xyz?](#Abc-xyz)|
 
 |23| [](#)
 

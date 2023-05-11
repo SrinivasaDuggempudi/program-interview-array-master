@@ -26,13 +26,12 @@
 |17| [Print even numbers of the array?](#Print-even-numbers-of-the-array)|
 |18| [Print all odd numbers in array?](#Print-all-odd-numbers-in-array)|
 |19| [Left rotation of Kth element?](#Left-rotation-of-Kth-element)|
-|20| [What is a module?](#what-is-a-module)|
-|21| [What is a module?](#what-is-a-module)|
-|22| [What is a module?](#what-is-a-module)|
+|20| [Right rotation of Kth elements?](#Right-rotation-of-Kth-elements)|
+|21| [Remove duplicates without new array?](#Remove-duplicates-without-new-array)|
+|22| [Remove Duplicate?](#Remove-Duplicate)|
+|23| [Abc xyz?](#Abc xyze)|
 
-
-
-|279| [](#)
+|23| [](#)
 
 1. ### Find a missing number?
 
@@ -560,20 +559,26 @@ Sum : 375
 
   **[⬆ Back to Top](#table-of-contents)**
   
-20. ### What is a module?
+20. ### Right rotation of Kth elements?
 
 
   **[⬆ Back to Top](#table-of-contents)**   
 
-21. ### What is a module?
+21. ### Remove duplicates without new array?
 
 
   **[⬆ Back to Top](#table-of-contents)** 
 
-22. ### What is a module?
+22. ### Remove Duplicate?
+
+
+  **[⬆ Back to Top](#table-of-contents)**
+  
+22. ### Abc xyz?
 
 
   **[⬆ Back to Top](#table-of-contents)**   
+  
   
   
   
